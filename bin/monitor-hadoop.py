@@ -98,9 +98,11 @@ class Hadoop_monitor:
                     MONITOR_TEMPLATE_VALUE["metric"]=monitor_key
                     MONITOR_TEMPLATE_VALUE["value"]=monitor_value
                     MONITOR_DATA.append(MONITOR_TEMPLATE_VALUE.copy())
-        r = requests.post("http://10.8.132.147:1988/v1/push",data=json.dumps(MONITOR_DATA))
+        #r = requests.post("http://10.8.132.147:1988/v1/push",data=json.dumps(MONITOR_DATA))
+        data=json.dumps(MONITOR_DATA)
+        print(data)
         MONITOR_DATA[:]=[]
-        print(r.text)
+        #print(r.text)
 
 
 def usage():

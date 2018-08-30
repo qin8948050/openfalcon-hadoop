@@ -1,1 +1,1 @@
-{"name": "Hadoop:service=NameNode,name=RpcDetailedActivityForPort8020", "SetSafeModeNumOps": 2, "StandbyExceptionNumOps": 10189, "StandbyExceptionAvgTime": 0.0, "SetSafeModeAvgTime": 1.0}
+{"SetSafeModeAvgTime": 0.0, "StandbyExceptionAvgTime": 0.0, "name": "Hadoop:service=NameNode,name=RpcDetailedActivityForPort8020", "StandbyExceptionNumOps": 10285, "SetSafeModeNumOps": 3}
